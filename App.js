@@ -1,9 +1,9 @@
 import * as React from "react";
-import { Text, View } from "react-native";
+import {  View } from "react-native";
 
 // Import a local component here
-import LittleLemonHeader from "./LittleLemonHeader";
-import LittleLemonFooter from "./LittleLemonFooter";
+import LittleLemonHeader from "./components/LittleLemonHeader";
+import LittleLemonFooter from "./components/LittleLemonFooter";
 
 export default function App() {
 	return (
