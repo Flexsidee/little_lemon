@@ -1,9 +1,10 @@
 import * as React from "react";
-import {  View } from "react-native";
+import { View } from "react-native";
 
 // Import a local component here
 import LittleLemonHeader from "./components/LittleLemonHeader";
 import LittleLemonFooter from "./components/LittleLemonFooter";
+import WelcomeScreen from "./components/WelcomeScreen";
 
 export default function App() {
 	return (
@@ -15,6 +16,7 @@ export default function App() {
 				}}
 			>
 				<LittleLemonHeader />
+				<WelcomeScreen />
 			</View>
 			<View
 				style={{
